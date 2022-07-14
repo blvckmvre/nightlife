@@ -1,0 +1,17 @@
+.LoadCircle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(27, 51, 94) 0%, whitesmoke 33%);
+    animation: 0.5s infinite load;
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
